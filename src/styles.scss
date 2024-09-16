@@ -1,2 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Magra:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap");
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body{
+  font-family: var(--ff-primary);
+  font-size: 0.875rem;
+  background-color: var(--clr-white);
+  line-height: 1.5;
+}
+:root{
+  --ff-primary:"Roboto", sans-serif;
+  --ff-secondary:"Inter",sans-serif;
+  --ff-design:"Satisfy",cusive;
+  --ff-brand:"Margarine",sans-serif;
+  --clr-white:#fff;
+  --clr-dark:#333;
+  --clr-grey-1:#102142;
+  --clr-grey-2:#617d98;
+  --clr-grey-3:#f1f5f8;
+  --clr-primary:#f53b57;
+  --clr-primary-light:#f04660;
+  --cls-secondary:#e9b949;
+--transition:all 0.3s linear;
+}
+img{
+  width: 100%;
+  display: block;
+}
+h1,h2,h3,h4{
+  text-transform: capitalize;
+}
